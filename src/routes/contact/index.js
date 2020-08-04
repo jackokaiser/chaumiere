@@ -3,32 +3,24 @@ import style from './style';
 
 const photographs = (props) => {
 	return (
-		<div class={style.pageContact}>
-			<h1 class={style.pageTitle}>Contact me</h1>
-			<div class={style.formWrapper}>
-				<p class={style.pageBody}>
-					<div>Hi!</div>
-					<div>If you are interested in my work and are looking to contact me for a contract please use the following form to contact me.</div>
-					<div>&nbsp;</div>
-					<div>Cheers 🍻</div>
-				</p>
-				<form name="contact" method="POST" data-netlify="true" action="/contact/success" data-netlify-honeypot="bot-field">
-					<input type="hidden" name="form-name" value="contact" />
+			<div class={style.pageContact}>
+				<h1 class={style.pageTitle}>Pour nous contacter:</h1>
+				<div>
 					<p>
-						<input type="text" name="name" placeholder="Name" required />
+						<ul>
+							<li>télèphone Thérèse: 06 32 16 35 44 </li>
+							<li>télèphone Gilles: 06 85 65 21 12 (spricht deutsch)</li>
+							<li>mail: chaumieredes4chateaux@gmail.com</li>
+						</ul>
 					</p>
-					<p>
-						<input type="email" name="email" placeholder="E-Mail" required />
-					</p>
-					<p>
-						<textarea name="message" placeholder="Message" />
-					</p>
-					<p>
-						<button type="submit">Send</button>
-					</p>
-				</form>
+				</div>
+				<h1 class={style.pageTitle}>Adresse:</h1>
+				<div>
+					<div>2 rue du Kehlenhof</div>
+					<div>67110 DAMBACH WINECKERTHAL</div>
+					<div>France</div>
+				</div>
 			</div>
-		</div>
 	);
 };
 
