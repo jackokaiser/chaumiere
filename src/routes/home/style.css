@@ -32,9 +32,6 @@
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;
-		background-image: url("/assets/quotes.svg");
-		background-repeat: no-repeat;
-		background-position: center;
 }
 
 .pageTitle {
