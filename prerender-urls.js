@@ -6,23 +6,21 @@ const parseMD = require('parse-md').default;
 const [blogs] = generateFileList(join(__dirname, 'content')).nodes;
 
 function getPageMd(id) {
-		const { content } = parseMD(fs.readFileSync(join('content', 'pages', id + '.md'), 'utf-8'));
-		return content;
+		const data = parseMD(fs.readFileSync(join('content', 'pages', id + '.md'), 'utf-8'));
+		return data;
 };
 
 module.exports = () => {
 	const pages = [
-			{
-					url: '/',
-					seo: {
-							cover: '/assets/profile.jpg'
-					},
-					data: {
-							content: getPageMd('home')
-					}
+		{
+			url: '/',
+			seo: {
+				cover: '/assets/profile.jpg'
 			},
-			{ url: '/contact/' },
-			{ url: '/contact/success' }
+			data: getPageMd('home')
+		},
+		{ url: '/contact/' },
+		{ url: '/contact/success' }
 	];
 
 	// adding blogs list posts page

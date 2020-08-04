@@ -48,15 +48,15 @@
     "preset": "jest-preset-preact"
   },
   "bugs": {
-    "url": "https://github.com/preactjs/preact-netlify/issues"
+    "url": "https://github.com/jackokaiser/chaumiere/issues"
   },
-  "homepage": "https://github.com/preactjs/preact-netlify#readme",
+  "homepage": "https://github.com/jackokaiser/chaumiere#readme",
   "keywords": [
     "preact",
     "netlify"
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/preactjs/preact-netlify.git"
+    "url": "git+https://github.com/jackokaiser/chaumiere.git"
   }
 }

@@ -37,13 +37,13 @@
 		background-position: center;
 }
 
-h1 {
+.pageTitle {
 	position: relative;
 	display: inline-block;
 	font-weight: 500;
 }
 
-h1:after {
+.pageTitle:after {
 	position: absolute;
 	bottom: -5px;
 	left: 0px;

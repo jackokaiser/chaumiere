@@ -35,14 +35,14 @@ function getPageBody(data, isLoading) {
 	}
 
 	if (data && data.data) {
-		const { content } = data.data;
+		const { content, metadata } = data.data;
 		return (
 			<div>
-				<div>
-					<Markdown>
-						{ content }
-					</Markdown>
-				</div>
+				<h1 class={style.pageTitle}>{ metadata.title }</h1>
+				<p class={style.quote}>{ metadata.subtitle }</p>
+				<Markdown>
+					{ content }
+				</Markdown>
 			</div>
 		);
 	}
