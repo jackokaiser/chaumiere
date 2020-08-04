@@ -4,16 +4,25 @@ const fs = require('fs');
 const parseMD = require('parse-md').default;
 
 const [blogs] = generateFileList(join(__dirname, 'content')).nodes;
+
+function getPageMd(id) {
+		const { content } = parseMD(fs.readFileSync(join('content', 'pages', id + '.md'), 'utf-8'));
+		return content;
+};
+
 module.exports = () => {
 	const pages = [
-		{
-			url: '/',
-			seo: {
-				cover: '/assets/profile.jpg'
-			}
-		},
-		{ url: '/contact/' },
-		{ url: '/contact/success' }
+			{
+					url: '/',
+					seo: {
+							cover: '/assets/profile.jpg'
+					},
+					data: {
+							content: getPageMd('home')
+					}
+			},
+			{ url: '/contact/' },
+			{ url: '/contact/success' }
 	];
 
 	// adding blogs list posts page

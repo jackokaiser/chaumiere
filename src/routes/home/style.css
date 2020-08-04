@@ -1,14 +1,14 @@
 .home {
-  padding: 56px 20px;
-  width: 100%;
+	padding: 20px 20px;
+	width: 100%;
 }
 
 .about {
-  display: flex;
+	display: flex;
 }
 
 .imageContainer {
-  flex: 1;
+	flex: 1;
 }
 
 .image {
@@ -18,30 +18,53 @@
 	background-position: center;
 }
 
+.imageText{
+		flex: 1;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+}
+
 .quote {
-  flex: 1;
-	display: flex;
-	flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background-image: url("/assets/quotes.svg");
-  background-repeat: no-repeat;
-  background-position: center;
+		flex: 1;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		background-image: url("/assets/quotes.svg");
+		background-repeat: no-repeat;
+		background-position: center;
+}
+
+h1 {
+	position: relative;
+	display: inline-block;
+	font-weight: 500;
+}
+
+h1:after {
+	position: absolute;
+	bottom: -5px;
+	left: 0px;
+	content: '';
+	width: 75%;
+	border-bottom: 2px solid #FFC107;
 }
 
 .details{
-	font-family: serif;
-	font-size: 32px;
-	font-style: italic;
-	padding-left: 32px;
-	text-align: center;
-	color: gray;
-	padding-bottom: 32px;
+		font-family: serif;
+		font-size: 32px;
+		font-style: italic;
+		padding-left: 32px;
+		text-align: center;
+		color: gray;
+		padding-bottom: 32px;
 }
 
 .author{
 	font-size: 16px;
-  color: black;
+	color: black;
 }
 
 .bio{
@@ -68,7 +91,7 @@
 		padding: 16px;
 	}
 
-  .about, .bio {
+	.about, .bio {
 		flex-direction: column;
 	}
 
@@ -88,4 +111,3 @@
 		padding: 0;
 	}
 }
-
