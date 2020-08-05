@@ -1,4 +1,5 @@
 ---
+background-url: /assets/chaumiere.jpg
 title: Gîte La Chaumière des 4 Châteaux
 subtitle: Amoureux de la nature et du calme, venez vous ressourcer dans notre maison en toit de chaume entièrement rénovée, nichée dans le Parc Naturel Régional des Vosges du Nord.
 ---

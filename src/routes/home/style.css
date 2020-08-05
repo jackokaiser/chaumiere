@@ -1,6 +1,45 @@
-.home {
-	padding: 20px 20px;
-	width: 100%;
+.paral {
+	display: flex;
+	align-items: stretch;
+	flex-direction: column;
+	justify-content: center;
+	min-height: 600px;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: 50% 50%;
+	background-image: url(/assets/chaumiere.jpg);
+	margin-bottom: 2em;
+	z-index: 1;
+}
+
+.paral .container-fluid {
+	z-index: 1001;
+}
+
+.overlay {
+	justify-content: center;
+	flex-grow: 2;
+	display: flex;
+	flex-direction: column;
+	background:rgba(0,0,0,0.6);
+	content: '\A';
+}
+
+/* Paragraph for Parallax Section */
+.paral p {
+	color:#f5f5f5;
+	text-align: center;
+}
+
+/* Heading for Parallax Section */
+.paral h1 {
+	padding-top: 30px;
+	color: rgba(255, 255, 255);
+	text-align: center;
+}
+
+.jumbotron{
+	margin-bottom: 0;
 }
 
 .about {

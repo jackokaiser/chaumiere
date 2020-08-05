@@ -18,11 +18,7 @@ const Home = (props) => {
 	 * Netlify CMS's accept invite link land on home page.
 	 * This redirection takes it to the right place(/admin).
 	 */
-	return (
-		<div class={style.home}>
-			{getPageBody(data, isLoading)}
-		</div>
-	);
+	return getPageBody(data, isLoading);
 };
 
 function getPageBody(data, isLoading) {
@@ -38,11 +34,17 @@ function getPageBody(data, isLoading) {
 		const { content, metadata } = data.data;
 		return (
 			<div>
-				<h1 class={style.pageTitle}>{ metadata.title }</h1>
-				<p class={style.quote}>{ metadata.subtitle }</p>
-				<Markdown>
-					{ content }
-				</Markdown>
+				<div class={style.paral}>
+					<div class={ style.overlay + " container-fluid align-self-center" }>
+						<h1 class="display-3 align-middle">{ metadata.title }</h1>
+						<p class="lead align-middle">{ metadata.subtitle }</p>
+					</div>
+				</div>
+				<div class="container-fluid">
+					<Markdown>
+						{ content }
+					</Markdown>
+				</div>
 			</div>
 		);
 	}
