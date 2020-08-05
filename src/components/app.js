@@ -24,7 +24,7 @@ export default class App extends Component {
 	render(props) {
 		return (
 			<Provider value={props}>
-				<div id="app">
+				<div id="app" class="container-fluid">
 					<Header />
 					<Router onChange={this.handleRoute}>
 						<Home path="/" />
