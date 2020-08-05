@@ -37,7 +37,7 @@ function getPageBody(data, isLoading) {
 					</div>
 				</div>
 				<div class="container-fluid">
-					<Markdown>
+					<Markdown class={style.home}>
 						{ content }
 					</Markdown>
 				</div>
