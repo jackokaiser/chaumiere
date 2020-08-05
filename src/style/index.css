@@ -9,6 +9,10 @@ body {
 	padding-top: 3.9rem;
 }
 
+img {
+	width: 100%;
+}
+
 * {
 	box-sizing: border-box;
 }
