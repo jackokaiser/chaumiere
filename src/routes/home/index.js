@@ -14,10 +14,6 @@ const Home = (props) => {
 	},[]);
 
 	const [data, isLoading] = usePrerenderData(props);
-	/**
-	 * Netlify CMS's accept invite link land on home page.
-	 * This redirection takes it to the right place(/admin).
-	 */
 	return getPageBody(data, isLoading);
 };
 

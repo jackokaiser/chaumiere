@@ -4,7 +4,6 @@ body {
 	margin: 0;
 	background: #FAFAFA;
 	font-family: 'Helvetica Neue', arial, sans-serif;
-	color: #444;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	min-height: 75rem;
@@ -22,7 +21,6 @@ body {
 
 a {
 	text-decoration: none;
-	color: #333;
 }
 
 .loading {

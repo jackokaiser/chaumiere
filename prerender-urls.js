@@ -15,11 +15,14 @@ module.exports = () => {
 		{
 			url: '/',
 			seo: {
-				cover: '/assets/profile.jpg'
+				cover: '/assets/chaumiere.jpg'
 			},
 			data: getPageMd('home')
 		},
-		{ url: '/contact/' },
+		{
+			url: '/contact/',
+			data: getPageMd('contact')
+		},
 		{ url: '/contact/success' }
 	];
 
