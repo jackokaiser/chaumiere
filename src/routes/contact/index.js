@@ -17,7 +17,7 @@ const contact = (props) => {
 	if (data && data.data) {
 		const { content, metadata } = data.data;
 		return (
-			<div class="container-fluid">
+			<div class="container-fluid mt-3">
 				<Markdown>
 					{ content }
 				</Markdown>
