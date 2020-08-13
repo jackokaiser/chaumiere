@@ -25,6 +25,10 @@
 	content: '\A';
 }
 
+.overlaytext {
+	width: 80%;
+}
+
 /* Paragraph for Parallax Section */
 .paral p {
 	color:#f5f5f5;
@@ -132,6 +136,11 @@
 	.home {
 		padding: 16px;
 	}
+
+	.overlaytext {
+		width: 100%;
+	}
+
 
 	.about, .bio {
 		flex-direction: column;
