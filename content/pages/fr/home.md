@@ -82,11 +82,11 @@ subtitle: Amoureux de la nature et du calme, venez vous ressourcer dans notre
 
 ## Villes proches:
 
-* Strasbourg à 60km
-* Haguenau à 30km
+* Strasbourg 60km
+* Haguenau 30km
 * Saverne 45km
-* Niederbronn les Bains à 10km
-* Europapark à 100km
-* Karlsruhe à 70km
-* Baden Baden à 65km
-* Zweibrucken à 50km
+* Niederbronn les Bains 10km
+* Europapark 100km
+* Karlsruhe 70km
+* Baden Baden 65km
+* Zweibrucken 50km

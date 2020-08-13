@@ -4,18 +4,33 @@ backend:
 media_folder: src/assets
 public_folder: /assets
 collections:
-  - label: "Pages"
-    name: "pages"
+  - label: "Pages en Fran&ccedil;ais"
+    name: "pages_fr"
     files:
       - label: "Home Page"
         name: "home"
-        file: "content/pages/home.md"
+        file: "content/pages/fr/home.md"
         fields:
           - {label: Title, name: title, widget: string}
           - {label: Subtitle, name: subtitle, widget: string}
           - {label: Body, name: body, widget: markdown}
       - label: "Contact Page"
         name: "contact"
-        file: "content/pages/contact.md"
+        file: "content/pages/fr/contact.md"
+        fields:
+          - {label: Body, name: body, widget: markdown}
+  - label: "Pages en Allemand"
+    name: "pages_de"
+    files:
+      - label: "Home Page"
+        name: "home"
+        file: "content/pages/de/home.md"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Subtitle, name: subtitle, widget: string}
+          - {label: Body, name: body, widget: markdown}
+      - label: "Contact Page"
+        name: "contact"
+        file: "content/pages/de/contact.md"
         fields:
           - {label: Body, name: body, widget: markdown}
