@@ -31,9 +31,11 @@ function getPageBody(data, isLoading) {
 		return (
 			<div>
 				<div class={style.paral}>
-					<div class={ style.overlay + " container-fluid align-self-center" }>
-						<h1 class="display-3 align-middle">{ metadata.title }</h1>
-						<p class="lead align-middle">{ metadata.subtitle }</p>
+					<div class={`${style.overlay}`}>
+						<div class="col-10 align-self-center">
+							<h1 class="display-3 align-middle">{ metadata.title }</h1>
+							<p class="lead align-middle">{ metadata.subtitle }</p>
+						</div>
 					</div>
 				</div>
 				<div class="container-fluid">
