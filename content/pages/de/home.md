@@ -1,6 +1,6 @@
 ---
 background-url: /assets/chaumiere.jpg
-title: Gîte La Chaumière des 4 Châteaux
+title: das Landhaus der Chaumière des 4 Châteaux
 subtitle: Liebhaber der Natur und der Ruhe können in unserem vollständig renovierten Reetdachhaus im regionalen Naturpark Vosges du Nord neue Energie tanken.
 ---
 ## Schlafplätze: 8 Personen
