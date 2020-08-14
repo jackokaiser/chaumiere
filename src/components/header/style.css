@@ -3,6 +3,34 @@
 .lobster {
 	font-family: 'Lobster', 'Helvetica Neue', arial, sans-serif;
 	font-weight: 400;
-	font-size: 1.5em;
+	font-size: 1.5rem;
 	color: #FFC107;
 }
+
+body {
+	padding-top: 3.8rem;
+}
+
+@media all and (max-width: 728px) {
+	.lobster {
+		font-size: 1rem;
+	}
+	body {
+		padding-top: 3.4rem;
+	}
+}
+
+	.fr, .de {
+		background-image: url(/assets/flags/france.svg);
+		background-size: cover;
+		height: 2rem;
+		width: 2rem;
+	}
+
+	.fr {
+		background-image: url(/assets/flags/france.svg);
+	}
+
+	.de {
+		background-image: url(/assets/flags/germany.svg);
+	}
