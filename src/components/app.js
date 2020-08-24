@@ -2,6 +2,7 @@ import { h, Component } from 'preact';
 import { Router } from 'preact-router';
 import { Provider } from '@preact/prerender-data-provider';
 import Header from './header';
+import { Lang, LangFromQueryUrl } from './languages';
 
 // Code-splitting is automated for routes
 import Home from '../routes/home';
@@ -14,7 +15,6 @@ import NotFoundPage from '../routes/notfound';
 export default class App extends Component {
 	constructor() {
 		super();
-		this.state = { lang: 'fr' };
 	}
 
 	/** Gets fired when the route changes.
@@ -23,25 +23,23 @@ export default class App extends Component {
 	 */
 	handleRoute = e => {
 		this.currentUrl = e.url;
-		const urlEnd = e.url.split('?')[0].split('/').slice(-1)[0];
-		const languages = ['fr', 'de'];
-		const lang = languages.includes(urlEnd) ? urlEnd : 'fr';
-		this.setState({ lang });
 	};
 
 	render(props) {
 		return (
 			<Provider value={props}>
-				<div id="app">
-					<Header lang={this.state.lang} />
-					<Router onChange={this.handleRoute}>
-						<Home path="/" />
-						<Home path="/de" />
-						<Contact path="/contact/" />
-						<Contact path="/contact/de" />
-						<NotFoundPage type="404" default />
-					</Router>
-				</div>
+				<LangFromQueryUrl>
+					<div id="app">
+						<Header/>
+						<Router onChange={this.handleRoute}>
+							<Home path="/" />
+							<Home path="/de" />
+							<Contact path="/contact/" />
+							<Contact path="/contact/de" />
+							<NotFoundPage type="404" default />
+						</Router>
+					</div>
+				</LangFromQueryUrl>
 			</Provider>
 		);
 	}

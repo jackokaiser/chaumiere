@@ -5,8 +5,12 @@ const parseMD = require('parse-md').default;
 
 const [blogs] = generateFileList(join(__dirname, 'content')).nodes;
 
-function getPageMd(id, lang='fr') {
-	const data = parseMD(fs.readFileSync(join('content', 'pages', lang, id + '.md'), 'utf-8'));
+function getPageMd(id) {
+	const readData = (lang) => parseMD(fs.readFileSync(join('content', 'pages', lang, id + '.md'), 'utf-8'));
+	const data = {
+		fr: readData("fr"),
+		de: readData("de")
+	};
 	return data;
 };
 
@@ -22,28 +26,11 @@ module.exports = () => {
 			}
 		},
 		{
-			url: '/de',
-			data: getPageMd('home', 'de'),
-			seo: {
-				cover: '/assets/chaumiere.jpg',
-				title: 'Chaumi&egrave;re des 4 ch&acirc;teaux',
-				subtitle: 'Liebhaber der Natur und der Ruhe k&ouml;nnen in unserem vollst&auml;ndig renovierten Reetdachhaus im regionalen Naturpark Vosges du Nord neue Energie tanken.'
-			}
-		},
-		{
 			url: '/contact/',
 			data: getPageMd('contact'),
 			seo: {
 				title: 'Chaumi&egrave;re des 4 ch&acirc;teaux',
 				subtitle: 'Nous contacter'
-			}
-		},
-		{
-			url: '/contact/de',
-			data: getPageMd('contact', 'de'),
-			seo: {
-				title: 'Chaumi&egrave;re des 4 ch&acirc;teaux',
-				subtitle: 'Kontaktieren Sie uns'
 			}
 		}
 	];
