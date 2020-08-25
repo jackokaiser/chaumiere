@@ -46,10 +46,10 @@ export default class Header extends Component {
 				<nav class="navbar fixed-top navbar-expand-sm navbar-dark bg-dark justify-content-between">
 					<Link class={`${style.lobster} navbar-brand`} href="/">Chaumière des 4 châteaux</Link>
 					<div class="btn-group btn-group-toggle" data-toggle="buttons">
-						<label onClick={() => setLangInQuery('fr')} class={`${style.fr} btn btn-secondary`}>
+						<label onClick={() => {props.setLang('fr')}} class={`${style.fr} btn btn-secondary`}>
 							<input type="radio" name="options" id="fr" autocomplete="off"/>
 						</label>
-						<label onClick={() => setLangInQuery('de')} class={`${style.de} btn btn-secondary`}>
+						<label onClick={() => {props.setLang('de')}} class={`${style.de} btn btn-secondary`}>
 							<input type="radio" name="options" id="de" autocomplete="off"/>
 						</label>
 					</div>

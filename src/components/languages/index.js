@@ -1,9 +1,13 @@
 import { createContext } from 'preact';
+import { route } from 'preact-router';
+import { useState } from 'preact/hooks';
+
+const Lang = createContext('fr');
 
 const validLang = ['fr', 'de'];
 
 function getLangFromQuery() {
-	if (!window) {
+	if (typeof window === 'undefined') {
 		return 'fr';
 	}
 
@@ -21,36 +25,27 @@ function getLangFromQuery() {
 }
 
 function setLangInQuery(lang) {
-	if (!window || !validLang.includes(lang) || getLangFromQuery() === lang) {
+	if ((typeof window === 'undefined') || !validLang.includes(lang) || getLangFromQuery() === lang) {
 		console.log("Not changing language in URL");
 		return;
 	}
-	let url = window.location.href;
+	let url = window.location.pathname;
 	const key = 'lang';
 
 	let re = new RegExp("([?&])" + key + "=.*?(&|$)", "i");
 	let separator = url.indexOf('?') !== -1 ? "&" : "?";
+	let targetUrl = '';
 	if (lang === 'fr') {
 		// default language - we just want to remove the query string
-		window.location.href = url.replace(re, '');
+		targetUrl = url.replace(re, '');
 	}
 	else if (url.match(re)) {
-		window.location.href = url.replace(re, '$1' + key + "=" + lang + '$2');
+		targetUrl = url.replace(re, '$1' + key + "=" + lang + '$2');
 	}
 	else {
-		window.location.href = url + separator + key + "=" + lang;
+		targetUrl = url + separator + key + "=" + lang;
 	}
+	route(targetUrl, true);
 }
 
-const Lang = createContext('fr');
-
-const LangFromQueryUrl = ({ children, ...props }) => {
-	let lang = getLangFromQuery();
-	return (
-		<Lang.Provider value={lang}>
-			{ children }
-		</Lang.Provider>
-	);
-}
-
-export { Lang, LangFromQueryUrl, setLangInQuery };
+export { Lang, getLangFromQuery, setLangInQuery };

@@ -1,8 +1,9 @@
 import { h, Component } from 'preact';
+import { useState } from 'preact/hooks';
 import { Router } from 'preact-router';
 import { Provider } from '@preact/prerender-data-provider';
 import Header from './header';
-import { Lang, LangFromQueryUrl } from './languages';
+import { Lang, getLangFromQuery, setLangInQuery } from './languages';
 
 // Code-splitting is automated for routes
 import Home from '../routes/home';
@@ -26,20 +27,24 @@ export default class App extends Component {
 	};
 
 	render(props) {
+		const [lang, setLang] = useState(getLangFromQuery());
+		const setLangAndUrl = l => {
+			setLang(l);
+			setLangInQuery(l);
+		};
+
 		return (
 			<Provider value={props}>
-				<LangFromQueryUrl>
+				<Lang.Provider value={lang}>
 					<div id="app">
-						<Header/>
+						<Header setLang={setLangAndUrl} />
 						<Router onChange={this.handleRoute}>
 							<Home path="/" />
-							<Home path="/de" />
 							<Contact path="/contact/" />
-							<Contact path="/contact/de" />
 							<NotFoundPage type="404" default />
 						</Router>
 					</div>
-				</LangFromQueryUrl>
+				</Lang.Provider>
 			</Provider>
 		);
 	}
