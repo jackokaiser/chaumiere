@@ -40,7 +40,9 @@ subtitle: Liebhaber der Natur und der Ruhe können in unserem vollständig renov
 
 ## Tarif
 
-**700€ pro Woche (7 Nächte) 130€ / Nacht (mindestens 3 Nächte)**
+* Tarif: 700€ pro Woche (7 Nächte), oder 130€ / Nacht (Mindestaufenthalt von 3 Nächten)
+* Check-in-Zeit: 16 Uhr
+* Check-out-Zeit: 10 Uhr
 
 ## Hier gibt es viel zu tun:
 
