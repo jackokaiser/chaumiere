@@ -10,12 +10,6 @@ subtitle: Liebhaber der Natur und der Ruhe können in unserem vollständig renov
 * Zimmer 3: 1 gesichertes Etagenbett und ein Schlafsofa
   auf Anfrage, Kinderbett und Kindersitzerhöhung
 
-![Paarzimmer im Obergeschoss](/assets/chambre_parents.jpg "Paarzimmer im Obergeschoss")
-
-![Paarzimmer im Erdgeschoss](/assets/chambre_amis.jpg "Paarzimmer im Erdgeschoss")
-
-![Kinderzimmer](/assets/chambre_enfants.jpg "Kinderzimmer")
-
 ## Voll ausgestattete Küche:
 
 * Induktionskochfeld mit 3 Brennern
@@ -28,8 +22,6 @@ subtitle: Liebhaber der Natur und der Ruhe können in unserem vollständig renov
 * nespresso
 * Kessel
 * Toaster
-
-![Küche](/assets/cuisine.jpg "Küche")
 
 ## Zusätzlicher Komfort:
 
@@ -46,13 +38,9 @@ subtitle: Liebhaber der Natur und der Ruhe können in unserem vollständig renov
 * Für Kinder (und ältere Kinder): Brettspiele, Lego, Schatzsuche "Die 4 Schlösser entdecken", Schaukeln.
 * Tiere erlaubt, Möglichkeit zur Unterbringung von bis zu 3 Pferden auf der Wiese mit Elektrozaun, Unterstand und Heu (10€/Nacht/Pferd)
 
-![Speisesaal](/assets/salle_a_manger.jpg "Speisesaal")
-
 ## Tarif
 
 **700€ pro Woche (7 Nächte) 130€ / Nacht (mindestens 3 Nächte)**
-
-![Haus](/assets/maison.jpg "Haus")
 
 ## Hier gibt es viel zu tun:
 
@@ -75,8 +63,6 @@ subtitle: Liebhaber der Natur und der Ruhe können in unserem vollständig renov
 * Wildpark Silz
 * Ziegenfarm von Obersteinbach
 * Zahlreiche Restaurants
-
-![Garten](/assets/jardin.jpg "Garten")
 
 ## Städte in der Nähe:
 

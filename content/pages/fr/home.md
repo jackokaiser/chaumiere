@@ -12,12 +12,6 @@ subtitle: Amoureux de la nature et du calme, venez vous ressourcer dans notre
 * chambre 3 : 1 lit superposé sécurisé et un canapé lit
   sur demande, lit bébé et rehausseur
 
-![chambre couple en haut](/assets/chambre_parents.jpg "chambre couple en haut")
-
-![chambre couple en bas](/assets/chambre_amis.jpg "chambre couple en bas")
-
-![chambre enfants](/assets/chambre_enfants.jpg "chambre enfants")
-
 ## Cuisine équipée:
 
 * plaque induction 3 feux
@@ -30,8 +24,6 @@ subtitle: Amoureux de la nature et du calme, venez vous ressourcer dans notre
 * nespresso
 * bouilloir
 * grille pain
-
-![cuisine](/assets/cuisine.jpg "cuisine")
 
 ## Extra confort:
 
@@ -48,13 +40,9 @@ subtitle: Amoureux de la nature et du calme, venez vous ressourcer dans notre
 * Pour les enfants (et les grands enfants): jeux de société, lego, chasse aux trésors "à la découverte des 4 châteaux", balançoires
 * Animaux admis, possibilité d'accueillir jusqu'à 3 chevaux au pré avec clôture électrique, abri et foin (10€/nuit/cheval)
 
-![salle à manger](/assets/salle_a_manger.jpg "salle à manger")
-
 ## Tarif
 
 **700€ la semaine (7 nuits) 130€ / nuit (minimum 3 nuits)**
-
-![maison](/assets/maison.jpg "maison")
 
 ## A faire dans les environs:
 
@@ -77,8 +65,6 @@ subtitle: Amoureux de la nature et du calme, venez vous ressourcer dans notre
 * parc animalier de Silz
 * chèvrerie d’Obersteinbach
 * Nombreux restaurants
-
-![jardin](/assets/jardin.jpg "jardin")
 
 ## Villes proches:
 

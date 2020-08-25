@@ -6,7 +6,14 @@ const parseMD = require('parse-md').default;
 const [blogs] = generateFileList(join(__dirname, 'content')).nodes;
 
 function getPageMd(id) {
-	const readData = (lang) => parseMD(fs.readFileSync(join('content', 'pages', lang, id + '.md'), 'utf-8'));
+	const getPath = (lang) => join('content', 'pages', lang, id + '.md')
+	const readData = (lang) => {
+		const path = getPath(lang);
+		if (fs.existsSync(path)) return parseMD(fs.readFileSync(path, 'utf-8'));
+		/* fallback to french page if language-specific page does not exist */
+		return parseMD(fs.readFileSync(getPath('fr'), 'utf-8'));
+	}
+
 	const data = {
 		fr: readData("fr"),
 		de: readData("de")
@@ -31,6 +38,15 @@ module.exports = () => {
 			seo: {
 				title: 'Chaumi&egrave;re des 4 ch&acirc;teaux',
 				subtitle: 'Nous contacter'
+			}
+		},
+		{
+			url: '/gallery/',
+			data: getPageMd('gallery'),
+			seo: {
+				cover: '/assets/chaumiere.jpg',
+				title: 'Chaumi&egrave;re des 4 ch&acirc;teaux',
+				subtitle: 'Galerie photos'
 			}
 		}
 	];

@@ -6,6 +6,7 @@ import Header from './header';
 import { Lang, getLangFromQuery, setLangInQuery } from './languages';
 
 // Code-splitting is automated for routes
+import Gallery from '../routes/gallery';
 import Home from '../routes/home';
 import Blogs from '../routes/blogs';
 import Blog from '../routes/blog';
@@ -40,6 +41,7 @@ export default class App extends Component {
 						<Header setLang={setLangAndUrl} />
 						<Router onChange={this.handleRoute}>
 							<Home path="/" />
+							<Gallery path="/gallery/" />
 							<Contact path="/contact/" />
 							<NotFoundPage type="404" default />
 						</Router>

@@ -10,12 +10,16 @@ function renderLinks() {
 		de: {
 			homeLink: '/?lang=de',
 			contactLink: '/contact/?lang=de',
+			galleryLink: '/gallery/?lang=de',
+			gallery: 'Fotogalerie',
 			home: 'Home',
 			contact: 'Kontakt',
 		},
 		fr: {
 			homeLink: '/',
 			contactLink: '/contact',
+			galleryLink: '/gallery',
+			gallery: 'Galerie photos',
 			home: 'Home',
 			contact: 'Contact',
 		}
@@ -27,6 +31,9 @@ function renderLinks() {
 		<ul class="navbar-nav ml-auto">
 			<li class="nav-item">
 				<Link data-toggle="collapse" class="nav-link" activeClassName="active" href={text.homeLink}>{text.home}</Link>
+			</li>
+			<li class="nav-item">
+				<Link data-toggle="collapse" class="nav-link" activeClassName="active" href={text.galleryLink}>{text.gallery}</Link>
 			</li>
 			<li class="nav-item">
 				<Link data-toggle="collapse" class="nav-link" activeClassName="active" href={text.contactLink}>{text.contact}</Link>
