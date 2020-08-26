@@ -4,7 +4,7 @@ backend:
 media_folder: src/assets
 public_folder: /assets
 collections:
-  - label: "Pages en Fran&ccedil;ais"
+  - label: "Pages en Francais"
     name: "pages_fr"
     files:
       - label: "Home Page"
