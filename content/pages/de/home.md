@@ -10,7 +10,7 @@ subtitle: Liebhaber der Natur und der Ruhe können in unserem vollständig renov
 * Zimmer 3: 1 gesichertes Etagenbett und ein Schlafsofa
   auf Anfrage, Kinderbett und Kindersitzerhöhung
 
-## Voll ausgestattete Küche:
+## Voll ausgestattete Küche
 
 * Induktionskochfeld mit 3 Brennern
 * Geschirrspüler
@@ -23,7 +23,7 @@ subtitle: Liebhaber der Natur und der Ruhe können in unserem vollständig renov
 * Kessel
 * Toaster
 
-## Zusätzlicher Komfort:
+## Zusätzlicher Komfort
 
 * Elektrische Heizung und Kamin
 * Wohnzimmer mit Sofa
@@ -40,11 +40,13 @@ subtitle: Liebhaber der Natur und der Ruhe können in unserem vollständig renov
 
 ## Tarif
 
-* Tarif: 700€ pro Woche (7 Nächte), oder 130€ / Nacht (Mindestaufenthalt von 3 Nächten)
+* 700€ pro Woche (7 Nächte), oder 130€/Nacht (Mindestaufenthalt von 3 Nächten)
+* Reinigungskosten: 50€.
+* Tiere erlaubt (5€/Tag), Möglichkeit zur Unterbringung von bis zu 3 Pferden auf der Wiese mit Elektrozaun, Unterstand und Heu (10€/Nacht/Pferd)
 * Check-in-Zeit: 16 Uhr
 * Check-out-Zeit: 10 Uhr
 
-## Hier gibt es viel zu tun:
+## Hier gibt es viel zu tun
 
 * Zahlreiche Wanderungen (zu Fuß, zu Pferd, mit dem Mountainbike) von der reetgedeckten Hütte und in der Umgebung.
 * Besuch vieler Schlösser (u.a. Schoeneck, Fleckenstein, Windstein)
@@ -66,7 +68,7 @@ subtitle: Liebhaber der Natur und der Ruhe können in unserem vollständig renov
 * Ziegenfarm von Obersteinbach
 * Zahlreiche Restaurants
 
-## Städte in der Nähe:
+## Städte in der Nähe
 
 * Strasbourg 60km
 * Haguenau 30km

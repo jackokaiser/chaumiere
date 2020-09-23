@@ -5,14 +5,14 @@ subtitle: Amoureux de la nature et du calme, venez vous ressourcer dans notre
   maison en toit de chaume entièrement rénovée, nichée dans le Parc Naturel
   Régional des Vosges du Nord.
 ---
-## Couchages: 8 personnes
+## Couchages 8 personnes
 
 * chambre 1 : 1 lit double 140 cm
 * chambre 2 : 1 lit double 180 cm (pouvant se séparer en 2 lits simples)
 * chambre 3 : 1 lit superposé sécurisé et un canapé lit
   sur demande, lit bébé et rehausseur
 
-## Cuisine équipée:
+## Cuisine équipée
 
 * plaque induction 3 feux
 * lave vaisselle
@@ -25,7 +25,7 @@ subtitle: Amoureux de la nature et du calme, venez vous ressourcer dans notre
 * bouilloir
 * grille pain
 
-## Extra confort:
+## Extra confort
 
 * Chauffage électrique et cheminée
 * Salon avec canapé
@@ -40,13 +40,15 @@ subtitle: Amoureux de la nature et du calme, venez vous ressourcer dans notre
 * Pour les enfants (et les grands enfants): jeux de société, lego, chasse aux trésors "à la découverte des 4 châteaux", balançoires
 * Animaux admis, possibilité d'accueillir jusqu'à 3 chevaux au pré avec clôture électrique, abri et foin (10€/nuit/cheval)
 
-## Tarif
+## Tarifs
 
-* Tarif: 700€ la semaine (7 nuits), ou 130€ / nuit (séjour minimum de 3 nuits)
+* 700€ la semaine (7 nuits), ou 130€/nuit (séjour minimum de 3 nuits)
+* frais de nettoyage: 50€
+* Animaux admis (5€/jour), possibilité d'accueillir jusqu'à 3 chevaux au pré avec clôture électrique, abri et foin (10€/nuit/cheval)
 * horaires d'arrivé (check-in): 16h
 * horaires de départ (check-out): 10h
 
-## A faire dans les environs:
+## A faire dans les environs
 
 * Nombreuses randonnées (pédestres, équestre, VTT) au départ de la chaumière et aux alentours.
 * Visite de nombreux châteaux (dont notamment le Schoeneck, le Fleckenstein, le Windstein)
@@ -68,7 +70,7 @@ subtitle: Amoureux de la nature et du calme, venez vous ressourcer dans notre
 * chèvrerie d’Obersteinbach
 * Nombreux restaurants
 
-## Villes proches:
+## Villes proches
 
 * Strasbourg 60km
 * Haguenau 30km
