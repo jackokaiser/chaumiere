@@ -1,16 +1,22 @@
 ---
 ---
-
-![Paarzimmer im Obergeschoss](/assets/chambre_parents.jpg "Paarzimmer im Obergeschoss")
-
-![Paarzimmer im Erdgeschoss](/assets/chambre_amis.jpg "Paarzimmer im Erdgeschoss")
-
-![Kinderzimmer](/assets/chambre_enfants.jpg "Kinderzimmer")
-
-![Küche](/assets/cuisine.jpg "Küche")
-
-![Speisesaal](/assets/salle_a_manger.jpg "Speisesaal")
-
-![Haus](/assets/maison.jpg "Haus")
-
-![Garten](/assets/jardin.jpg "Garten")
+![](/assets/chambre_parents.jpg)
+![](/assets/chambre_amis.jpg)
+![](/assets/chambre_enfants.jpg)
+![](/assets/cuisine.jpg)
+![](/assets/salle_a_manger.jpg)
+![](/assets/maison.jpg)
+![](/assets/jardin.jpg)
+![](/assets/gallery/DSC_3441.JPG)
+![](/assets/gallery/DSC_3445.JPG)
+![](/assets/gallery/DSC_3461.JPG)
+![](/assets/gallery/DSC_3485.JPG)
+![](/assets/gallery/DSC_5064.JPG)
+![](/assets/gallery/DSC_5070.JPG)
+![](/assets/gallery/DSC_5075.JPG)
+![](/assets/gallery/DSC_5086.JPG)
+![](/assets/gallery/DSC_5092.JPG)
+![](/assets/gallery/DSC_5098.JPG)
+![](/assets/gallery/DSC_5105.JPG)
+![](/assets/gallery/DSC_5135.JPG)
+![](/assets/gallery/DSC_5145.JPG)

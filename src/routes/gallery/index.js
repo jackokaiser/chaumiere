@@ -33,7 +33,7 @@ const Gallery = (props) => {
 function GalleryImage({ alt, title, src }) {
 	return (
 		<div class={`mb-3 pics animation all 2 ${style.textAlign}`}>
-			<img class="img-fluid" src={src} alt={alt} />
+			<img class="img-fluid" src={src} />
 			{title && <span class={style.inlineImageTitle}>{title}</span>}
 		</div>
 	);
