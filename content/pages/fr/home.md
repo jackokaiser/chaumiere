@@ -38,13 +38,12 @@ subtitle: Amoureux de la nature et du calme, venez vous ressourcer dans notre
 * garage pour moto et vélo  (3 vélos disponibles)
 * Linge de maison fourni (2 serviettes de toilette/ personne, draps, torchons)
 * Pour les enfants (et les grands enfants): jeux de société, lego, chasse aux trésors "à la découverte des 4 châteaux", balançoires
-* Animaux admis, possibilité d'accueillir jusqu'à 3 chevaux au pré avec clôture électrique, abri et foin (10€/nuit/cheval)
+* Animaux admis (5€/jour), possibilité d'accueillir jusqu'à 3 chevaux au pré avec clôture électrique, abri et foin (10€/nuit/cheval)
 
 ## Tarifs
 
 * 700€ la semaine (7 nuits), ou 130€/nuit (séjour minimum de 3 nuits)
 * frais de nettoyage: 50€
-* Animaux admis (5€/jour), possibilité d'accueillir jusqu'à 3 chevaux au pré avec clôture électrique, abri et foin (10€/nuit/cheval)
 * horaires d'arrivé (check-in): 16h
 * horaires de départ (check-out): 10h
 
