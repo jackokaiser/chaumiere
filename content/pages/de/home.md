@@ -1,7 +1,9 @@
 ---
 background-url: /assets/chaumiere.jpg
 title: das Landhaus der Chaumière des 4 Châteaux
-subtitle: Liebhaber der Natur und der Ruhe können in unserem vollständig renovierten Reetdachhaus im regionalen Naturpark Vosges du Nord neue Energie tanken.
+subtitle: Liebhaber der Natur und der Ruhe können in unserem vollständig
+  renovierten Reetdachhaus im regionalen Naturpark Vosges du Nord neue Energie
+  tanken.
 ---
 ## Schlafplätze: 8 Personen
 
@@ -36,13 +38,12 @@ subtitle: Liebhaber der Natur und der Ruhe können in unserem vollständig renov
 * Garage für Motorrad und Fahrrad (3 Fahrräder verfügbar)
 * Haushaltswäsche wird gestellt (2 Handtücher / Person, Bettwäsche, Geschirrtücher)
 * Für Kinder (und ältere Kinder): Brettspiele, Lego, Schatzsuche "Die 4 Schlösser entdecken", Schaukeln.
-* Tiere erlaubt, Möglichkeit zur Unterbringung von bis zu 3 Pferden auf der Wiese mit Elektrozaun, Unterstand und Heu (10€/Nacht/Pferd)
+* Tiere erlaubt (5€/Tag), Möglichkeit zur Unterbringung von bis zu 3 Pferden auf der Wiese mit Elektrozaun, Unterstand und Heu (10€/Nacht/Pferd)
 
 ## Tarif
 
 * 700€ pro Woche (7 Nächte), oder 130€/Nacht (Mindestaufenthalt von 3 Nächten)
-* Reinigungskosten: 50€.
-* Tiere erlaubt (5€/Tag), Möglichkeit zur Unterbringung von bis zu 3 Pferden auf der Wiese mit Elektrozaun, Unterstand und Heu (10€/Nacht/Pferd)
+* Reinigungskosten: 50€
 * Check-in-Zeit: 16 Uhr
 * Check-out-Zeit: 10 Uhr
 
