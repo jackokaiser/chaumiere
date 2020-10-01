@@ -1,12 +1,5 @@
 ---
 ---
-![](/assets/chambre_parents.jpg)
-![](/assets/chambre_amis.jpg)
-![](/assets/chambre_enfants.jpg)
-![](/assets/cuisine.jpg)
-![](/assets/salle_a_manger.jpg)
-![](/assets/maison.jpg)
-![](/assets/jardin.jpg)
 ![](/assets/gallery/DSC_3441.JPG)
 ![](/assets/gallery/DSC_3445.JPG)
 ![](/assets/gallery/DSC_3461.JPG)
