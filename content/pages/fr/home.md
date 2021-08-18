@@ -42,7 +42,7 @@ subtitle: Amoureux de la nature et du calme, venez vous ressourcer dans notre
 
 ## Tarifs
 
-* 700€ la semaine (7 nuits), ou 130€/nuit (séjour minimum de 3 nuits)
+* 950€ la semaine (7 nuits), ou 150€/nuit (séjour minimum de 3 nuits)
 * frais de nettoyage: 50€
 * horaires d'arrivé (check-in): 16h
 * horaires de départ (check-out): 10h
