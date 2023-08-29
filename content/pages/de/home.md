@@ -42,7 +42,7 @@ subtitle: Liebhaber der Natur und der Ruhe können in unserem vollständig
 
 ## Tarif
 
-* 950€ pro Woche (7 Nächte), oder 150€/Nacht (Mindestaufenthalt von 3 Nächten)
+* 1500€ pro Woche (7 Nächte), oder 250€/Nacht (Mindestaufenthalt von 3 Nächten)
 * Reinigungskosten: 50€
 * Check-in-Zeit: 16 Uhr
 * Check-out-Zeit: 10 Uhr
